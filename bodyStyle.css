@@ -1,0 +1,35 @@
+body{
+    /*background-repeat:  no-repeat;
+    background-size: cover;*/
+    color: black;
+    /*overflow: hidden;
+    padding-top:5px;
+    padding-left: 10px;*/
+
+    margin:0.1%;
+    font-size: 1.3vw;
+}
+h1{
+  color:black;
+}
+div{
+  width:50em;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+.notice{
+  background-color: #00004d;
+  color:white;
+  z-index: 100;
+  position: fixed;
+  top: 30px;
+  bottom: 30px;
+  right:1%;
+  width: 20em;
+  padding-left: 10px;
+  overflow: auto;
+}
+.notice::-webkit-scrollbar {
+  display: none;
+}
